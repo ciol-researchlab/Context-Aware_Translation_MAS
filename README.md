@@ -55,9 +55,24 @@ pip install colab-xterm duckduckgo-search
 pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
 ```
 
-#### 2. Run The Agent
+#### 3. Run The Agent
 Now, run the script.
 
 ```
 python main.py
+```
+
+---
+
+### Cite as:
+
+```
+@inproceedings{
+anonymous2025preserving,
+title={Preserving Cultural Identity with Context-Aware Translation Through Multi-Agent {AI} Systems},
+author={Mahfuz Ahmed Anik and Abdur Rahman and Azmine Toushik Wasi and Md Manjurul Ahsan},
+booktitle={NAACL 2025 Workshop on Language Models for Underserved Communities},
+year={2025},
+url={https://openreview.net/forum?id=RiCfefEHII}
+}
 ```
