@@ -56,7 +56,8 @@ pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
 ```
 
 #### 3. Run The Agent
-Now, run the script.
+Change the English text in line 81, in `main.py`.
+Then, run the script.
 
 ```
 python main.py
