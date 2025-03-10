@@ -21,15 +21,11 @@ a. **Install Ollama:**
    curl -fsSL https://ollama.com/install.sh | sh
    ```
 
-   **Explanation:** This command downloads and executes the Ollama installation script directly from their official website. The `curl` command fetches the script, and the `-fsSL` flags ensure that the process is silent and fails gracefully if any issues arise. Piping (`|`) the output to `sh` executes the script, installing Ollama on your system.
-
 b. **Start the Ollama Server and Download the Llama3 Model:**
 
    ```bash
    ollama serve & ollama pull aya-expanse:8b
    ```
-
-   **Explanation:** The first part, `ollama serve &`, starts the Ollama server in the background, allowing it to handle requests without occupying the terminal. The ampersand (`&`) ensures that the server runs as a background process. The second part, `ollama pull aya-expanse:8b`, downloads the Llama3 model to your local machine, making it available for use with Ollama.
 
 c. **Install LiteLLM with Proxy Support:**
 
@@ -37,15 +33,11 @@ c. **Install LiteLLM with Proxy Support:**
    pip install 'litellm[proxy]'
    ```
 
-   **Explanation:** This command uses `pip`, the Python package installer, to install LiteLLM along with its proxy capabilities. The `'litellm[proxy]'` notation specifies that the proxy feature should be included during installation.
-
 d. **Start the LiteLLM Proxy Server with the Ollama Llama3 Model:**
 
    ```bash
    litellm --model ollama/aya-expanse:8b
    ```
-
-   **Explanation:** This command launches the LiteLLM proxy server, specifying the use of the `ollama/aya-expanse:8b` model. The proxy server facilitates interactions with the specified model, providing a unified interface for handling requests. ([LiteLLM - Getting Started | liteLLM](https://docs.litellm.ai/docs/proxy/quick_start?utm_source=chatgpt.com))
 
 #### 2. Prepare Environment
 Install required packages.
