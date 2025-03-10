@@ -77,3 +77,15 @@ year={2025},
 url={https://openreview.net/forum?id=RiCfefEHII}
 }
 ```
+or,
+```
+@misc{anik2025preservingculturalidentitycontextaware,
+      title={Preserving Cultural Identity with Context-Aware Translation Through Multi-Agent AI Systems}, 
+      author={Mahfuz Ahmed Anik and Abdur Rahman and Azmine Toushik Wasi and Md Manjurul Ahsan},
+      year={2025},
+      eprint={2503.04827},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.04827}, 
+}
+```
